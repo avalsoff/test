@@ -1,0 +1,13 @@
+/node_modules/
+/.git/
+/.publish/
+/src/css/
+/**/_backstage
+/**/package-lock.json
+/**/Thumbs.db
+/**/*.DS_Store
+/**/desktop.ini
+debug.log
+/build/
+/**/Vector Smart Object.ai
+/src/libs/glide/
