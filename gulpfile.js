@@ -177,7 +177,8 @@ gulp.task('sprite', function () {
   var spriteData = gulp.src('src/img/sprite/*.jpg')
   .pipe(spritesmith({
     imgName: 'sprite.png',
-    cssName: 'sprite.css'
+    cssName: 'sprite.css',
+    imgPath: '../img/sprite/sprite.png'
   }));
 
   // Pipe image stream through image optimizer and onto disk

@@ -1,0 +1,34 @@
+.full-img {
+  
+  &__wrapper {
+    overflow: hidden;
+  }
+  
+  &__image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  &__caption {
+    display: none;
+  }
+  
+  &__author {
+    display: none;
+  }
+}
+
+
+@media (min-width: @w-large) {
+  .full-img {
+    &__caption {
+      display: block;
+    }
+    
+    
+    &__author {
+      display: block;
+    }
+  }
+}

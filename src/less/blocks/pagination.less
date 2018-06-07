@@ -1,0 +1,25 @@
+.pagination {
+  .list-reboot();
+  
+  &__item {
+    display: inline-block;
+  }
+  
+  &__link {
+    display: block;
+    font-family: @default;
+    width: 34px;
+    height: 34px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+
+    &--active {
+      font-weight: 700;
+      background-color: #e6e6e6;
+      border-radius: 50%;
+    }
+  }
+}
