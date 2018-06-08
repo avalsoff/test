@@ -12,7 +12,13 @@
   <main class="page__main">
     <section class="photo-day">
       <h2 class="photo-day__heading">День в фото</h2>
-      <div class="photo-day__full-img full-img">
+      <div class="photo-day__full-img full-img">        
+        <a href="#" class="photo-day__thumb-link photo-day__thumb-link--floating">
+          <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
+            <b class="photo-day__thumb-number">20</b>
+            сентября
+          </time>
+        </a>
         <div class="full-img__wrapper">
           <picture>
             <source srcset="img/full.jpg" media="(min-width: 480px)"/>
@@ -23,62 +29,67 @@
         <p class="full-img__caption">Мельницы маленькой деревушки Brandmill близи курортного австрийского города Mayerhoffen.</p>
         <small class="full-img__author">Фото: Reuters</small>
       </div>
-      <div class="photo-day__thumbs">
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb1"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb2"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb3"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb4"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb5"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb6"></div>
-        </a>
-
-        <a href="#" class="photo-day__thumb-link">
-          <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
-            <b class="photo-day__thumb-number">20</b>
-            сентября
-          </time>
-        </a>
-
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb7"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb8"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb9"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb10"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb11"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb12"></div>
-        </a>
-
-        <a href="#" class="photo-day__thumb-link">
-          <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
-            <b class="photo-day__thumb-number">19</b>
-            сентября
-          </time>
-        </a>
-
+      
+      <div class="photo-day__thumbs-wrapper">
+        <div class="photo-day__thumbs">
+          <a href="#" class="photo-day__ad-banner ad-banner ad-banner--adidas">
+          </a>
+          
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb1"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb2"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb3"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb4"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb5"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb6"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
+              <b class="photo-day__thumb-number">20</b>
+              сентября
+            </time>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb7"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb8"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb9"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb10"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb11"></div>
+          </a>
+          
+          <div class="show-large">           
+            <a href="#" class="photo-day__thumb-link">
+              <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
+                <b class="photo-day__thumb-number">19</b>
+                сентября
+              </time>
+            </a>
+            <a href="#" class="photo-day__thumb-link">
+              <div class="photo-day__thumb-image icon-thumb12"></div>
+            </a>
+          </div>          
+        </div>
       </div>
       
-      <div class="ad-mobile">
+      <a class="photo-day__ad-mobile ad-mobile" href="#">
         <div class="ad-mobile__img-wrapper">
           <img class="ad-mobile__image" src="img/ad-theater.png" alt="Театральная паутина">
         </div>
@@ -87,60 +98,79 @@
           <h3 class="ad-mobile__title">Театральная паутина</h3>
           <p class="ad-mobile__text">Открытие новых центров немецкого автопрома</p>
         </div>
+      </a>
+      
+      
+      <div class="photo-day__thumbs-wrapper">
+        <div class="photo-day__thumbs">        
+          <a href="#" class="photo-day__ad-banner ad-banner ad-banner--cola">
+          </a>
+          <div class="hide-large">           
+            <a href="#" class="photo-day__thumb-link">
+              <div class="photo-day__thumb-image icon-thumb12"></div>
+            </a>
+            <a href="#" class="photo-day__thumb-link">
+              <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
+                <b class="photo-day__thumb-number">19</b>
+                сентября
+              </time>
+            </a>
+          </div>  
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb13"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb14"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb15"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb16"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb17"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb18"></div>
+          </a>
+          
+          <a href="#" class="photo-day__thumb-link">
+            <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
+              <b class="photo-day__thumb-number">18</b>
+              сентября
+            </time>
+          </a>
+          
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb19"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb20"></div>
+          </a>
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb21"></div>
+          </a>
+          
+          <a href="#" class="photo-day__thumb-link">
+            <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
+              <b class="photo-day__thumb-number">17</b>
+              сентября
+            </time>
+          </a>
+          
+          <a href="#" class="photo-day__thumb-link">
+            <div class="photo-day__thumb-image icon-thumb22"></div>
+          </a>
+        </div>
       </div>
       
-      <div class="photo-day__thumbs">        
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb13"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb14"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb15"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb16"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb17"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb18"></div>
-        </a>
-
-        <a href="#" class="photo-day__thumb-link">
-          <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
-            <b class="photo-day__thumb-number">18</b>
-            сентября
-          </time>
-        </a>
-
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb19"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb20"></div>
-        </a>
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb21"></div>
-        </a>
-
-        <a href="#" class="photo-day__thumb-link">
-          <time class="photo-day__thumb-date" datetime="2017-09-20 18:00">
-            <b class="photo-day__thumb-number">17</b>
-            сентября
-          </time>
-        </a>
-
-        <a href="#" class="photo-day__thumb-link">
-          <div class="photo-day__thumb-image icon-thumb22"></div>
-        </a>
-      </div>
-
       <ul class="photo-day__pagination pagination">
         <li class="pagination__item">
-          <a class="pagination__link pagination__link--active" href="#">1</a>
+          <h3 class="pagination__heading">Страницы: </h3>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link pagination__link--active">1</a>
         </li>
         <li class="pagination__item">
           <a class="pagination__link" href="#">2</a>
